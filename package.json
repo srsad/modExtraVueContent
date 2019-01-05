@@ -1,0 +1,51 @@
+{
+  "name": "modextra",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue": "^2.5.17",
+    "vue-axios": "^2.1.4",
+    "vue-template-compiler": "^2.5.17",
+    "vuemodx": "git+https://github.com/srsad/vueModx.git"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {}
+}
